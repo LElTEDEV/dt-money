@@ -29,7 +29,7 @@ export function SummaryCard({
         <Icon size={25} color={IconColor[iconColor]} />
       </header>
 
-      <strong className="block mt-4 text-[2rem]">R$ {amount}</strong>
+      <strong className="block mt-4 text-xl lg:text-[2rem]">R$ {amount}</strong>
     </div>
   );
 }
